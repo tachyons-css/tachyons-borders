@@ -9,10 +9,12 @@ var gulp = require('gulp'),
 gulp.task('css', function() {
   gulp.src('./src/tachyons-borders.css')
     .pipe(basswork())
+    .pipe(size({gzip: false, showFiles: true, title:'prefixed'}))
     .pipe(size({gzip: true, showFiles: true, title:'prefixed'}))
     .pipe(gulp.dest('./'))
     .pipe(minifyCss())
     .pipe(size({gzip: true, showFiles: true, title:'minified'}))
+    .pipe(size({gzip: false, showFiles: true, title:'minified'}))
     .pipe(rename({ extname: '.min.css' }))
     .pipe(gulp.dest('./'));
 });
