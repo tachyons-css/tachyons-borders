@@ -1,6 +1,6 @@
 {
   "name": "tachyons-borders",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "style": "tachyons-borders.css",
   "homepage": "http://github.com/mrmrs/tachyons-borders",
   "description": "Performance-first css module for styling borders.",
@@ -50,7 +50,6 @@
     "postcss-css-variables": "^0.4.0",
     "postcss-custom-media": "^4.1.0",
     "postcss-import": "^6.2.0"
-
   },
   "scripts": {
     "start": "node build.js"
