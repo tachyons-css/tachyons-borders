@@ -1,18 +1,21 @@
-# TACHYONS-BORDERS
+# tachyons-borders
+1.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance-first css module for styling borders.
 
 ## Install
 ```
 npm install --save-dev tachyons-borders
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-borders
+```
 
 ## The Code
 ```
-
 /*
 
    BORDER BASE
@@ -33,7 +36,7 @@ or download the css on github and include in your project.
   .bb { border-bottom-style: solid; border-bottom-width: 1px; }
   .bl { border-left-style: solid; border-left-width: 1px; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .ba-ns { border-style: solid; border-width: 1px; }
   .bt-ns { border-top-style: solid; border-top-width: 1px; }
   .br-ns { border-right-style: solid; border-right-width: 1px; }
@@ -41,7 +44,7 @@ or download the css on github and include in your project.
   .bl-ns { border-left-style: solid; border-left-width: 1px; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ba-m { border-style: solid; border-width: 1px; }
   .bt-m { border-top-style: solid; border-top-width: 1px; }
   .br-m { border-right-style: solid; border-right-width: 1px; }
@@ -49,13 +52,15 @@ or download the css on github and include in your project.
   .bl-m { border-left-style: solid; border-left-width: 1px; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em) {
   .ba-l { border-style: solid; border-width: 1px; }
   .bt-l { border-top-style: solid; border-top-width: 1px; }
   .br-l { border-right-style: solid; border-right-width: 1px; }
   .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
   .bl-l { border-left-style: solid; border-left-width: 1px; }
 }
+
+
 ```
 
 ## Author
