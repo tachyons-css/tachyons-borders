@@ -1,21 +1,61 @@
-# tachyons-borders
-1.1.0
+# tachyons-borders 1.1.1
 
 Performance-first css module for styling borders.
 
-## Install
+#### Stats
+
+285 | 20 | 40
+---|---|---
+bytes | selectors | declarations
+
+## Installation
+
+#### With [npm](https://npmjs.com)
+
 ```
 npm install --save-dev tachyons-borders
 ```
 
-or download the css on github and include in your project:
+#### With Git
 
 ```
-git clone git@github.com:mrmrs/tachyons-borders
+git clone https://github.com/tachyons-css/tachyons-borders
 ```
 
-## The Code
+## Usage
+
+#### Using with [PostCSS](https://github.com/postcss/postcss)
+
+Import the css module
+
+```css
+@import "tachyons-borders";
 ```
+
+Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/tachyons-cli)
+
+```sh
+$ npm i -g tachyons-cli
+$ tachyons-cli path/to/css-file.css > dist/t.css
+```
+
+#### Using the CSS
+
+The built CSS is located in the `css` directory. It contains an unminified and minified version.
+You can either cut and paste that css or link to it directly in your html.
+
+```html
+<link rel="stylesheet" href="path/to/module/css/tachyons-borders">
+```
+
+#### Development
+
+The source CSS files can be found in the `src` directory.
+Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
+
+## The CSS
+
+```css
 /*
 
    BORDER BASE
@@ -29,65 +69,48 @@ git clone git@github.com:mrmrs/tachyons-borders
    l = left
 
 */
-
-  .ba { border-style: solid; border-width: 1px; }
-  .bt { border-top-style: solid; border-top-width: 1px; }
-  .br { border-right-style: solid; border-right-width: 1px; }
-  .bb { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl { border-left-style: solid; border-left-width: 1px; }
-
+.ba { border-style: solid; border-width: 1px; }
+.bt { border-top-style: solid; border-top-width: 1px; }
+.br { border-right-style: solid; border-right-width: 1px; }
+.bb { border-bottom-style: solid; border-bottom-width: 1px; }
+.bl { border-left-style: solid; border-left-width: 1px; }
 @media screen and (min-width: 48em) {
-  .ba-ns { border-style: solid; border-width: 1px; }
-  .bt-ns { border-top-style: solid; border-top-width: 1px; }
-  .br-ns { border-right-style: solid; border-right-width: 1px; }
-  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl-ns { border-left-style: solid; border-left-width: 1px; }
+ .ba-ns { border-style: solid; border-width: 1px; }
+ .bt-ns { border-top-style: solid; border-top-width: 1px; }
+ .br-ns { border-right-style: solid; border-right-width: 1px; }
+ .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
+ .bl-ns { border-left-style: solid; border-left-width: 1px; }
 }
-
 @media screen and (min-width: 48em) and (max-width: 64em) {
-  .ba-m { border-style: solid; border-width: 1px; }
-  .bt-m { border-top-style: solid; border-top-width: 1px; }
-  .br-m { border-right-style: solid; border-right-width: 1px; }
-  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl-m { border-left-style: solid; border-left-width: 1px; }
+ .ba-m { border-style: solid; border-width: 1px; }
+ .bt-m { border-top-style: solid; border-top-width: 1px; }
+ .br-m { border-right-style: solid; border-right-width: 1px; }
+ .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
+ .bl-m { border-left-style: solid; border-left-width: 1px; }
 }
-
 @media screen and (min-width: 64em) {
-  .ba-l { border-style: solid; border-width: 1px; }
-  .bt-l { border-top-style: solid; border-top-width: 1px; }
-  .br-l { border-right-style: solid; border-right-width: 1px; }
-  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl-l { border-left-style: solid; border-left-width: 1px; }
+ .ba-l { border-style: solid; border-width: 1px; }
+ .bt-l { border-top-style: solid; border-top-width: 1px; }
+ .br-l { border-right-style: solid; border-right-width: 1px; }
+ .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
+ .bl-l { border-left-style: solid; border-left-width: 1px; }
 }
-
-
 ```
 
-## Author
+## Contributing
 
-[mrmrs](http://mrmrs.io)
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## Authors
+
+* [mrmrs](http://mrmrs.io)
+* [johno](http://johnotander.com)
 
 ## License
 
-The MIT License (MIT)
-
-Copyright (c) 2015 @mrmrs
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+MIT
 
