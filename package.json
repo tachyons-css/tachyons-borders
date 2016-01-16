@@ -2,15 +2,15 @@
   "name": "tachyons-borders",
   "version": "2.0.0",
   "style": "tachyons-borders.css",
-  "homepage": "http://github.com/mrmrs/tachyons-borders",
+  "homepage": "http://github.com/tachyons-css/tachyons-borders",
   "description": "Performance-first css module for styling borders.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-borders.git"
+    "url": "http://github.com/tachyons-css/tachyons-borders.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-borders/issues",
+    "url": "https://github.com/tachyons-css/tachyons-borders/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
