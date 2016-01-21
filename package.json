@@ -1,18 +1,19 @@
 {
   "name": "tachyons-borders",
-  "version": "2.0.1",
-  "style": "tachyons-borders.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-borders",
+  "version": "2.0.2",
+  "style": "src/tachyons-borders.css",
   "description": "Performance-first css module for styling borders.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-borders.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-borders/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "tachyons-borders",
+    "css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-borders",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
