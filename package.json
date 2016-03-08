@@ -21,9 +21,15 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "tachyons src/tachyons-borders.css > css/tachyons-borders.css && tachyons src/tachyons-borders.css --minify > css/tachyons-borders.min.css && tachyons src/tachyons-borders.css --generate-docs --package=../../package.json > readme.md"
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-borders.css > css/tachyons-borders.css",
+    "build:minify": "tachyons src/tachyons-borders.css --minify > css/tachyons-borders.min.css",
+    "build:docs": "tachyons src/tachyons-borders.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
   },
   "devDependencies": {
-    "tachyons-cli": "^0.5.0"
+    "tachyons-cli": "^0.5.0",
+    "watch": "^0.17.1"
   }
 }
