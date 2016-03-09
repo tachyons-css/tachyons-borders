@@ -1,10 +1,10 @@
-# tachyons-borders 2.0.2
+# tachyons-borders 2.0.3
 
 Performance-first css module for styling borders.
 
 #### Stats
 
-285 | 20 | 40
+309 | 24 | 48
 ---|---|---
 bytes | selectors | declarations
 
@@ -74,12 +74,14 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .br { border-right-style: solid; border-right-width: 1px; }
 .bb { border-bottom-style: solid; border-bottom-width: 1px; }
 .bl { border-left-style: solid; border-left-width: 1px; }
+.bn { border-style: none; border-width: 0; }
 @media screen and (min-width: 48em) {
  .ba-ns { border-style: solid; border-width: 1px; }
  .bt-ns { border-top-style: solid; border-top-width: 1px; }
  .br-ns { border-right-style: solid; border-right-width: 1px; }
  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-ns { border-left-style: solid; border-left-width: 1px; }
+ .bn-ns { border-style: none; border-width: 0; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .ba-m { border-style: solid; border-width: 1px; }
@@ -87,6 +89,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br-m { border-right-style: solid; border-right-width: 1px; }
  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-m { border-left-style: solid; border-left-width: 1px; }
+ .bn-m { border-style: none; border-width: 0; }
 }
 @media screen and (min-width: 64em) {
  .ba-l { border-style: solid; border-width: 1px; }
@@ -94,6 +97,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .br-l { border-right-style: solid; border-right-width: 1px; }
  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-l { border-left-style: solid; border-left-width: 1px; }
+ .bn-l { border-style: none; border-width: 0; }
 }
 ```
 
