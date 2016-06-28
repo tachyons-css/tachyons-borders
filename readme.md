@@ -1,4 +1,4 @@
-# tachyons-borders 2.0.3
+# tachyons-borders 2.1.1
 
 Performance-first css module for styling borders.
 

@@ -1,6 +1,6 @@
 {
   "name": "tachyons-borders",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "style": "src/tachyons-borders.css",
   "description": "Performance-first css module for styling borders.",
   "keywords": [
@@ -31,5 +31,9 @@
   "devDependencies": {
     "tachyons-cli": "^0.5.0",
     "watch": "^0.17.1"
+  },
+  "metadata": {
+    "category": "theming",
+    "isCore": true
   }
 }
