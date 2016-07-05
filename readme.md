@@ -1,10 +1,10 @@
-# tachyons-borders 2.1.1
+# tachyons-borders 2.2.0
 
 Performance-first css module for styling borders.
 
 #### Stats
 
-386 | 40 | 64
+309 | 24 | 48
 ---|---|---
 bytes | selectors | declarations
 
@@ -36,7 +36,7 @@ Then process the CSS using the [`tachyons-cli`](https://github.com/tachyons-css/
 
 ```sh
 $ npm i -g tachyons-cli
-$ tachyons path/to/css-file.css > dist/t.css
+$ tachyons-cli path/to/css-file.css > dist/t.css
 ```
 
 #### Using the CSS
@@ -75,10 +75,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .bb { border-bottom-style: solid; border-bottom-width: 1px; }
 .bl { border-left-style: solid; border-left-width: 1px; }
 .bn { border-style: none; border-width: 0; }
-.bt-0 { border-top-width: 0; }
-.br-0 { border-right-width: 0; }
-.bb-0 { border-bottom-width: 0; }
-.bl-0 { border-left-width: 0; }
 @media screen and (min-width: 48em) {
  .ba-ns { border-style: solid; border-width: 1px; }
  .bt-ns { border-top-style: solid; border-top-width: 1px; }
@@ -86,10 +82,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-ns { border-left-style: solid; border-left-width: 1px; }
  .bn-ns { border-style: none; border-width: 0; }
- .bt-0-ns { border-top-width: 0; }
- .br-0-ns { border-right-width: 0; }
- .bb-0-ns { border-bottom-width: 0; }
- .bl-0-ns { border-left-width: 0; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .ba-m { border-style: solid; border-width: 1px; }
@@ -98,10 +90,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-m { border-left-style: solid; border-left-width: 1px; }
  .bn-m { border-style: none; border-width: 0; }
- .bt-0-m { border-top-width: 0; }
- .br-0-m { border-right-width: 0; }
- .bb-0-m { border-bottom-width: 0; }
- .bl-0-m { border-left-width: 0; }
 }
 @media screen and (min-width: 64em) {
  .ba-l { border-style: solid; border-width: 1px; }
@@ -110,10 +98,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
  .bl-l { border-left-style: solid; border-left-width: 1px; }
  .bn-l { border-style: none; border-width: 0; }
- .bt-0-l { border-top-width: 0; }
- .br-0-l { border-right-width: 0; }
- .bb-0-l { border-bottom-width: 0; }
- .bl-0-l { border-left-width: 0; }
 }
 ```
 
