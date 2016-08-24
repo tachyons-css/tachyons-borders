@@ -4,7 +4,7 @@ Performance-first css module for styling borders.
 
 #### Stats
 
-309 | 24 | 48
+308 | 24 | 48
 ---|---|---
 bytes | selectors | declarations
 
@@ -93,7 +93,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .bb { border-bottom-style: solid; border-bottom-width: 1px; }
 .bl { border-left-style: solid; border-left-width: 1px; }
 .bn { border-style: none; border-width: 0; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .ba-ns { border-style: solid; border-width: 1px; }
  .bt-ns { border-top-style: solid; border-top-width: 1px; }
  .br-ns { border-right-style: solid; border-right-width: 1px; }
@@ -101,7 +101,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .bl-ns { border-left-style: solid; border-left-width: 1px; }
  .bn-ns { border-style: none; border-width: 0; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .ba-m { border-style: solid; border-width: 1px; }
  .bt-m { border-top-style: solid; border-top-width: 1px; }
  .br-m { border-right-style: solid; border-right-width: 1px; }
@@ -109,7 +109,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .bl-m { border-left-style: solid; border-left-width: 1px; }
  .bn-m { border-style: none; border-width: 0; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .ba-l { border-style: solid; border-width: 1px; }
  .bt-l { border-top-style: solid; border-top-width: 1px; }
  .br-l { border-right-style: solid; border-right-width: 1px; }
