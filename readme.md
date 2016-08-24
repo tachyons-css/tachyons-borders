@@ -1,4 +1,4 @@
-# tachyons-borders 2.2.4
+# tachyons-borders 3.0.0
 
 Performance-first css module for styling borders.
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-borders@2.2.4/css/tachyons-borders.min.css" />
+<link rel="stylesheet" href="http://npmcdn.com/tachyons-borders@3.0.0/css/tachyons-borders.min.css" />
 ```
 
 ##### Locally
