@@ -2,6 +2,7 @@
   "name": "tachyons-borders",
   "version": "3.0.3",
   "style": "src/tachyons-borders.css",
+  "main": "src/tachyons-borders.css",
   "description": "Performance-first css module for styling borders.",
   "keywords": [
     "tachyons",
